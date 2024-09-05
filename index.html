@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planner</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7D6LPcFyZF7TfKz-k7CNtVTbcPXwUZPd1Ng&s">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Event Planner</h1>
+        <div id="calendar"></div>
+        <div id="event-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Add/Edit Event</h2>
+                <input type="text" id="event-title" placeholder="Event Title">
+                <input type="datetime-local" id="event-date-time">
+                <button id="save-event">Save Event</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
